@@ -94,8 +94,16 @@ a == b == c == d == e == f
   - New in version 3.10.
 
 # 範例學習
+```python
+dict = {'Name': 'DaDaLong', 'Age': 17, 'Class': 'First'}
+print("dict['Name']: ", dict['Name'])
+print("dict['Age']: ", dict['Age'])
 
-- 使用字典(dict)資料寫成簡單的小寫英文字母 的[ASCII](https://en.wikipedia.org/wiki/ASCII)字典
+dict.items()
+list(dict.items())
+list(dict.keys())
+```
+### 使用字典(dict)資料寫成簡單的小寫英文字母 的[ASCII](https://en.wikipedia.org/wiki/ASCII)字典
   - a-->97  ... z-->122
 - 範例1:key 是數字 value是小寫英文字母 97-->a  ... 122-->z
 ```python
