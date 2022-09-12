@@ -9,7 +9,7 @@
 - []() [GITHUB網址]()
   - 推薦章節
 - [OpenCV 4 詳解：基於 Python 馮振，陳亞萌](https://www.tenlong.com.tw/products/9787115566034?list_name=srh) [GITHUB網址](https://github.com/fengzhenHIT/learnOpenCV4_Python)
-- [AIOT 與 OpenCV 實戰應用：Python、樹莓派、物聯網與機器視覺, 2/e 朱克剛](https://www.tenlong.com.tw/products/9789865027162?list_name=srh)
+- [科班出身的 AI人必修課：OpenCV 影像處理 使用 Python  李立宗  深智數位](https://www.tenlong.com.tw/products/9789869807296?list_name=srh)
 - [Python OpenCV 從入門到精通 明日科技](https://www.tenlong.com.tw/products/9787302583615?list_name=srh) 
   - 推薦章節
     - 第14章 視頻處理 
@@ -28,6 +28,23 @@
     - Chapter 10 為文字辨識開發分割演算法
     - Chapter 11 用 Tesseract 辨識文字
     - Chapter 12 深度學習與 OpenCV
+- [OpenCV 圖像處理入門與實踐 榮嘉祺](https://www.tenlong.com.tw/products/9787115570567?list_name=srh) [GITHUB網址]()
+
+# AI+IOT == AIOT系統開發 
+- [Raspberry Pi 樹莓派：Python x AI 超應用聖經  陳會安 旗標科技](https://www.tenlong.com.tw/products/9789863126997?list_name=sp)
+  - 推薦章節
+    - 第5章 使用樹莓派架設伺服器
+      - 5-1 架設 Web 伺服器
+      - 5-2 安裝 PHP 開發環境
+      - 5-3 安裝設定 MySQL 資料庫系統
+      - 5-4 架設 FTP 伺服器
+    - 第11章 AI 實驗範例（一）：電腦視覺 + AI 辨識 - OpenCV + YOLO
+    - 第12章 AI 實驗範例（二）：進階電腦視覺 + AI 辨識 - TensorFlow + MediaPipe + CVZone
+    - 第13章 IoT 實驗範例：溫溼度監控與 Node-RED
+    - 第14章 AIoT 實驗範例：Node-RED + TensorFlow.js
+    - 第15章 硬體介面實驗範例（一）：樹莓派 WiFi 遙控視訊車
+    - 第16章 硬體介面實驗範例（二）：樹莓派 AI 自駕車
+- [AIOT 與 OpenCV 實戰應用：Python、樹莓派、物聯網與機器視覺, 3/e 朱克剛](https://www.tenlong.com.tw/products/9786263240193?list_name=srh)
 
 # 範例學習
 # 範例學習1:
