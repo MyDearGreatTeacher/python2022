@@ -7,7 +7,6 @@
 - [子模組套件Subpackages](https://docs.opencv.org/4.x/modules.html)
 # 參考書籍
 - [OpenCV 影像創意邁向 AI 視覺王者歸來 (全彩印刷)  洪錦魁  深智數位](https://www.tenlong.com.tw/products/9789860776782?list_name=srh) 
-  - 推薦章節
 - [OpenCV 4 詳解：基於 Python 馮振，陳亞萌](https://www.tenlong.com.tw/products/9787115566034?list_name=srh) [GITHUB網址](https://github.com/fengzhenHIT/learnOpenCV4_Python)
 - [科班出身的 AI人必修課：OpenCV 影像處理 使用 Python  李立宗  深智數位](https://www.tenlong.com.tw/products/9789869807296?list_name=srh)
 - [Python OpenCV 從入門到精通 明日科技](https://www.tenlong.com.tw/products/9787302583615?list_name=srh) 
