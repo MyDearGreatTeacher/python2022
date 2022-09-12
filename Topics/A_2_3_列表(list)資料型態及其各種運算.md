@@ -55,14 +55,13 @@ mylist[4]
 mylist[-3]
 mylist[-1]
 
-# Slicing of a List
+# 各種切片(Slicing)技巧 Slicing of a List
 mylist[:3]
 mylist[2:]
 mylist[:]
 
 # Negative index List slicing
-
-
+mylist[ : : -1]
 ```
 ### List Comprehension
 ```
@@ -78,3 +77,5 @@ print(X2_square)
   - [Python List Comprehension and Slicing](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)
   - [Nested List Comprehensions in Python](https://www.geeksforgeeks.org/nested-list-comprehensions-in-python/)
   - [Python – Swap elements in String list](https://www.geeksforgeeks.org/python-swap-elements-in-string-list/)
+
+## 列表(list)資料型態的各種運算
