@@ -1,18 +1,20 @@
 # python學習主題
-
-# A.基本主題
+# python開發環境
 ```
-python開發環境
 雲端開發環境: Google Colab   kaggle 
 windwos 開發環境:
 Linux 開發環境:
-
+```
+# A.基本主題
+```
 1.基本輸入與輸出 ==>格式化輸出
 2.Python資料型態(data Type)及其各種運算
->* [1]數值(Numeric)資料及其運算
->* [2]字串(string)及其運算
->* [3]列表(list)資料及其運算
->* [4]字典(dict)資料及其運算 
+[1]數值(Numeric)資料型態及其各種運算
+[2]字串(string)資料型態及其各種運算
+[3]列表(list)資料型態及其各種運算
+[4]字典(dict)資料型態及其各種運算 
+[5]tuple 資料型態及其各種運算 
+[6]集合(set)資料型態及其各種運算
 3.python決策與選擇結構==>
     if     if..elsif     if..else
     if..elsif..elsif..else
