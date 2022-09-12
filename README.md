@@ -55,8 +55,25 @@ matplotlib
 seaborn
 pandas
 ```
-
 # Python股票分析
 ```
 
+```
+# Python line聊天機器人開發
+```
+
+```
+# python科學計算
+```
+
+
+```
+# python機器學習
+```
+使用scikit-learn
+```
+# python人工智慧
+```
+使用Tensorflow
+使用PyTorch
 ```
