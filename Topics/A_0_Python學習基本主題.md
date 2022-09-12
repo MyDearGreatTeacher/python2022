@@ -1,4 +1,4 @@
-# 早期教材
+# 早期教材(3小時教材)
 - [MyFirstSecurity2020/HappyPythonDay](https://github.com/MyFirstSecurity2020/HappyPythonDay)
 
 # Python學習基本主題
@@ -12,13 +12,19 @@
     - [Python | Output Formatting](https://www.geeksforgeeks.org/python-output-formatting/)
     - [Python 字串格式化教學與範例](https://officeguide.cc/python-string-formatters-tutorial/)
 
-## 2.Python資料型態(data Type)及其各種運算
-- 數值(Numeric)資料型態及其各種運算
-- 字串(string)資料型態及其各種運算
-- 列表(list)資料型態及其各種運算
-- 字典(dict)資料型態及其各種運算 
-- tuple 資料型態及其各種運算 
-- 集合(set)資料型態及其各種運算
+## 2.[Python資料型態(data Type)](https://docs.python.org/3/library/stdtypes.html)及其各種運算
+- 數值(Numeric)資料型態及其各種運算:Numeric Types — int(整數), float(浮點數), complex(複數)
+- 字串(string)資料型態及其各種運算:Text Sequence Type — str
+- Sequence Types — list, tuple, range
+  - 列表(list)資料型態及其各種運算
+  - tuple 資料型態及其各種運算
+  - range 資料型態及其各種運算
+- 字典(dict)資料型態及其各種運算:Mapping Types — dict
+  - Dictionary view objects 
+- 其他(比較不常用)
+  - 集合(set)資料型態及其各種運算:Set Types — set, frozenset
+  - Binary Sequence Types — bytes, bytearray, memoryview
+  - Type Annotation Types — Generic Alias, Union
 
 ## 3.python決策與選擇結構==>
 - if     if..elsif     if..else
