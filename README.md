@@ -42,7 +42,7 @@ Linux 開發環境:
 各種資料庫存取
 ```
 # python資料結構與演算法
-# 基本資安應用
+# CTF資安應用
 ```
 使用python模組解編解碼與密碼學
   python模組
@@ -52,7 +52,10 @@ Pwotools模組
 Pwotools模組安裝
 Pwotools常用指令
 ```
-
+# 資安實務應用
+```
+python滲透測試技
+```
 # Python網路爬蟲技術
 ```
 
