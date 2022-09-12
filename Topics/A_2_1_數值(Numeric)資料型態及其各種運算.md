@@ -16,23 +16,35 @@
 - Python fully supports mixed arithmetic: when a binary arithmetic operator has operands of different numeric types, the operand with the “narrower” type is widened to that of the other, where integer is narrower than floating point, which is narrower than complex. A comparison between numbers of different types behaves as though the exact values of those numbers were being compared. 2
 - The constructors int(), float(), and complex() can be used to produce numbers of a specific type.
 ## 數值(Numeric)資料型態的各種運算
-- x + y  ==> sum of x and y
-- x - y  ==> difference of x and y
-- x * y  ==> product of x and y
-- x / y  ==> quotient of x and y
-- x // y ==> floored quotient of x and y
+- 四則運算
+  - x + y  ==> sum of x and y
+  - x - y  ==> difference of x and y
+  - x * y  ==> product of x and y
+  - x / y  ==> quotient of x and y
+  - x // y ==> floored quotient of x and y
+- 模運算相關
 - x % y  ==> remainder of x / y
+- divmod(x, y) ==> the pair (x // y, x % y)
 - `-x`   ==> x negated
 - +x     ==> x unchanged
 - abs(x) ==> absolute value or magnitude of x
 - int(x) ==> x converted to integer
 - float(x) ==> x converted to floating point
-- complex(re, im) ==> a complex number with real part re, imaginary part im. im defaults to zero.
-- c.conjugate() ==> conjugate of the complex number c
-- divmod(x, y) ==> the pair (x // y, x % y)
-- pow(x, y)  ==> x to the power y
-- x ** y ==> x to the power y
-#
+- 複數運算
+  - complex(re, im) ==> a complex number with real part re, imaginary part im. im defaults to zero.
+  - c.conjugate() ==> conjugate of the complex number c
+- Exponentiation次方運算
+  - pow(x, y)  ==> x to the power y
+  - x ** y ==> x to the power y
+- Bitwise Operations on Integer Types
+  - x `|` y  ==> `bitwise or` of x and y
+  - x `^` y  ==> `bitwise exclusive or` of x and y
+  - x `&` y  ==> `bitwise and` of x and y
+  - x `<<` n ==> x `shifted left` by n bits
+  - x >> n   ==> x `shifted right` by n bits
+  - ~x       ==> the bits of x inverted 
+
+# 範例學習
 ```python
 import sys
 sys.float_info
