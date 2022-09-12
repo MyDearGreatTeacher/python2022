@@ -15,13 +15,13 @@
     - 第16章 MR智能視頻打卡系統
 
 
-- [OpenCV 4 專案實務, 2/e](https://www.tenlong.com.tw/products/9789865022907?list_name=srh) [GITHUB網址]()
-  - Learn OpenCV 4 by Building Projects: Build real-world computer vision and image processing applications with OpenCV and C++, 2/e
+- [OpenCV 4 專案實務, 2/e](https://www.tenlong.com.tw/products/9789865022907?list_name=srh) [GITHUB網址](https://github.com/PacktPublishing/Learn-OpenCV-4-By-Building-Projects-Second-Edition)
+  - [Learn OpenCV 4 by Building Projects: Build real-world computer vision and image processing applications ..](https://www.packtpub.com/product/learn-opencv-4-by-building-projects-second-edition/9781789341225)
   - 推薦章節
     - Chapter 3 圖形使用者介面與基本濾鏡
     - Chapter 4 深入色階直方圖與濾鏡
-    - Chapter 5 自動光學檢查、物體分割與偵測
-    - Chapter 6 學習物體分類
+    - Chapter 5 `自動光學檢查(Automated Optical Inspection)`、`物體分割(Object Segmentation)`與`物體偵測(Object Detection)`
+    - Chapter 6 學習`物體分類(Object Classification)`
     - Chapter 7 偵測人臉部份與覆蓋遮罩
     - Chapter 8 影像監控、背景塑模與形態學操作
     - Chapter 9 學習物體追蹤
