@@ -60,3 +60,25 @@ a == b == c == d == e == f
   - update() accepts either another dictionary object or an iterable of key/value pairs (as tuples or other iterables of length two). 
   - If keyword arguments are specified, the dictionary is then updated with those key/value pairs: d.update(red=1, blue=2).
 - values()  Return a new view of the dictionary’s values. 
+## Dictionary view objects
+- The objects returned by dict.keys(), dict.values() and dict.items() are view objects. 
+- They provide a dynamic view on the dictionary’s entries, which means that when the dictionary changes, the view reflects these changes.
+- Dictionary views can be iterated over to yield their respective data, and support membership tests:
+- 各種運算:
+- len(dictview) Return the number of entries in the dictionary.
+- iter(dictview) 
+  - Return an iterator over the keys, values or items (represented as tuples of (key, value)) in the dictionary.
+  - Keys and values are iterated over in insertion order. This allows the creation of (value, key) pairs using zip(): pairs = zip(d.values(), d.keys()). 
+  - Another way to create the same list is pairs = [(v, k) for (k, v) in d.items()].
+  - Iterating views while adding or deleting entries in the dictionary may raise a RuntimeError or fail to iterate over all entries.
+  - Changed in version 3.7: Dictionary order is guaranteed to be insertion order.
+- x in dictview
+  - Return True if x is in the underlying dictionary’s keys, values or items (in the latter case, x should be a (key, value) tuple).
+- reversed(dictview)
+  - Return a reverse iterator over the keys, values or items of the dictionary. 
+  - The view will be iterated in reverse order of the insertion.
+  - Changed in version 3.8: Dictionary views are now reversible.
+- dictview.mapping
+  - Return a types.MappingProxyType that wraps the original dictionary to which the view refers.
+  - New in version 3.10.
+  - 
