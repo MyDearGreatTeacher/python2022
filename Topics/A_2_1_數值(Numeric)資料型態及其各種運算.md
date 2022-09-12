@@ -13,8 +13,12 @@
 - Unadorned integer literals (including hex, octal and binary numbers) yield integers. 
 - Numeric literals containing a decimal point or an exponent sign yield floating point numbers. 
 - Appending 'j' or 'J' to a numeric literal yields an imaginary number (a complex number with a zero real part) which you can add to an integer or float to get a complex number with real and imaginary parts.
-- Python fully supports mixed arithmetic: when a binary arithmetic operator has operands of different numeric types, the operand with the “narrower” type is widened to that of the other, where integer is narrower than floating point, which is narrower than complex. A comparison between numbers of different types behaves as though the exact values of those numbers were being compared. 2
-- The constructors int(), float(), and complex() can be used to produce numbers of a specific type.
+- Python fully supports mixed arithmetic
+  - when a binary arithmetic operator has operands of different numeric types, the operand with the “narrower” type is widened to that of the other, where integer is narrower than floating point, which is narrower than complex. 
+  - A comparison between numbers of different types behaves as though the exact values of those numbers were being compared. 
+- Python數值型資料型態都是object(物件)
+  - The constructors int(), float(), and complex() can be used to produce numbers of a specific type.
+
 ## 數值(Numeric)資料型態的各種運算
 - 四則運算
   - x + y  ==> sum of x and y
@@ -28,8 +32,9 @@
 - `-x`   ==> x negated
 - +x     ==> x unchanged
 - abs(x) ==> absolute value or magnitude of x
-- int(x) ==> x converted to integer
-- float(x) ==> x converted to floating point
+- Python數值型資料型態都是object(物件): 使用建構子
+  - int(x) ==> x converted to integer
+  - float(x) ==> x converted to floating point
 - 複數運算
   - complex(re, im) ==> a complex number with real part re, imaginary part im. im defaults to zero.
   - c.conjugate() ==> conjugate of the complex number c
@@ -43,6 +48,105 @@
   - x `<<` n ==> x `shifted left` by n bits
   - x >> n   ==> x `shifted right` by n bits
   - ~x       ==> the bits of x inverted 
+- 運算子計算的優先順序Operator precedence
+- 整數類型資料型態的特殊運算(Additional Methods on Integer Types)
+  - int.bit_length()
+  - int.bit_count()
+  - int.to_bytes(length, byteorder, *, signed=False)
+  - classmethod int.from_bytes(bytes, byteorder, *, signed=False)
+  - int.as_integer_ratio()
+- 浮點數類型資料型態的特殊運算(Additional Methods on Float)
+  - float.as_integer_ratio()
+  - float.is_integer()
+  - float.hex()
+  - classmethod float.fromhex(s)
+## 使用 math數學模組函式進行數值(Numeric)資料型態的運算
+- [Python math Module](https://www.w3schools.com/python/module_math.asp)
+- [Python cmath Module](https://www.w3schools.com/python/module_cmath.asp)
+- math模組提供了對C標準定義的數學函數的存取與使用。
+- 這些函數不適用於複數；如果你需要計算複數，請使用 cmath 模組中的同名函數。
+- math模組提供了許多函數。除非另有明確說明，否則所有回傳值均為浮點數。
+- 數論與表示函數
+  - math.ceil(x)　回傳 x 的向上取整，即大於或等於 x 的最小的整數。
+    - 如果 x 不是浮點數，委託給 x.__ceil__ ，它應該回傳一個 Integral 的值。
+  - math.comb(n, k)　回傳不重複且無順序地從 n 項中選擇 k 項的方式總數。
+    - 當 k <= n 時取值為 n! / (k! * (n - k)!)；當 k > n 時取值為零。
+    - 也稱為二項式係數，因為它等價於運算式 (1 + x) ** n 的多項式展開中第 k 項的係數。
+    - 如果任一參數不為整數則會引發 TypeError。 如果任一參數為負數則會引發 ValueError。
+    - 3.8 版新加入.
+  - math.copysign(x, y)　回傳一個基於 x 的絕對值和 y 的符號的浮點數
+  - math.fabs(x)　回傳 x 的絕對值。
+  - math.factorial(x)　以一個整數回傳 x 的階乘。 
+    - 如果 x 不是整數或為負數時則將引發 ValueError。
+    - 3.9 版後已棄用: 接受具有整數值的浮點數 (例如 5.0) 的行為已被棄用。
+  - math.floor(x)　回傳 x 的向下取整，小於或等於 x 的最大整數。
+    - 如果 x 不是浮點數，則委託給 x.__floor__ ，它應回傳一個 Integral 值。
+  - math.fmod(x, y)　　回傳 fmod(x, y) ，由平臺C庫定義。
+  - math.frexp(x)  以 (m, e) 對的形式回傳 x 的尾數和指數。 
+    - m 是一個浮點數， e 是一個整數，正好是 x == m * 2**e 。 
+    - 如果 x 為零，則回傳 (0.0, 0) ，否則回傳 0.5 <= abs(m) < 1 。
+    - 這用於以可移植方式“分離”浮點數的內部表示。
+  - math.fsum(iterable)　　回傳反覆運算中的精確浮點值。
+  - `math.gcd(*integers)`　　回傳給定的整數參數的最大公約數
+  - `math.lcm(*integers)`　回傳給定的整數參數的最小公倍數。 
+  - math.isclose(a, b, *, rel_tol=1e-09, abs_tol=0.0)
+    - 若 a 和 b 的值比較接近則回傳 True，否則回傳 False。
+  - math.isfinite(x)　　如果 x 既不是無窮大也不是NaN，則回傳 True ，否則回傳 False 
+  - math.isinf(x)　　如果 x 是正或負無窮大，則回傳 True ，否則回傳 False 。
+  - math.isnan(x)　如果 x 是 NaN（不是數字），則回傳 True ，否則回傳 False 。
+  - math.isqrt(n)　回傳非負整數 n 的整數平方根。
+  - math.ldexp(x, i)　回傳 `x * (2**i) `。 這基本上是函數 frexp() 的反函數。
+  - math.modf(x)　回傳 x 的小數和整數部分。兩個結果都帶有 x 的符號並且是浮點數。
+  - math.nextafter(x, y)　回傳 x 趨向於 y 的最接近的浮點數值。
+  - math.perm(n, k=None)　回傳不重複且有順序地從 n 項中選擇 k 項的方式總數。
+  - `math.prod(iterable, *, start=1)`　計算輸入的 iterable 中所有元素的積。 積的默認 start 值為 1。
+  - math.remainder(x, y)　　回傳 IEEE 754 風格的 x 相對於 y 的餘數。
+  - math.trunc(x)　　回傳去除小數部分的 x ，只留下整數部分
+  - math.ulp(x)　　回傳浮點數 x 的最小有效比特位的值:
+- 冪函數與對數函數
+  - math.exp(x)　回傳 e 次 x 冪，其中 e = 2.718281... 是自然對數的基數。這通常比 math.e ** x 或 pow(math.e, x) 更精確。
+  - math.expm1(x)　　回傳 e 的 x 次冪，減1。
+  - math.log(x[, base])　使用一個參數，回傳 x 的自然對數（底為 e ）。
+    - 使用兩個參數，回傳給定的 base 的對數 x ，計算為 log(x)/log(base) 。
+  - math.log1p(x)　　回傳 1+x 的自然對數（以 e 為底）。 以對於接近零的 x 精確的方式計算結果。
+  - math.log2(x)　回傳 x 以2為底的對數。這通常比 log(x, 2) 更準確。
+  - math.log10(x)　　回傳 x 底為10的對數。這通常比 log(x, 10) 更準確。
+  - math.pow(x, y)　　將回傳 x 的 y 次冪。
+  - math.sqrt(x)　　回傳 x 的平方根。
+- 三角函數
+  - math.cos(x)　回傳 x 弧度的余弦值。
+  - math.sin(x)　　回傳 x 弧度的正弦值。
+  - math.tan(x)　　回傳 x 弧度的正切值。
+- 反三角函數
+  - math.acos(x)　回傳以弧度為單位的 x 的反余弦值。 結果範圍在 0 到 pi 之間。
+  - math.asin(x)　回傳以弧度為單位的 x 的反正弦值。 結果範圍在 -pi/2 到 pi/2 之間。
+  - math.atan(x)　　回傳以弧度為單位的 x 的反正切值。 結果範圍在 -pi/2 到 pi/2 之間。.
+  - math.atan2(y, x)　　以弧度為單位回傳 atan(y / x) 
+- 距離
+  - math.dist(p, q)　回傳 p 與 q 兩點之間的歐幾裡得距離，以一個座標序列（或可反覆運算物件）的形式給出。 兩個點必須具有相同的維度。
+  - math.hypot(*coordinates) 回傳歐幾裡得範數，`sqrt(sum(x**2 for x in coordinates))`。 這是從原點到座標給定點的向量長度。
+- 角度轉換
+  - math.degrees(x)　將角度 x 從弧度轉換為度數。
+  - math.radians(x)　　將角度 x 從度數轉換為弧度。
+- 雙曲線函數:雙曲線函數 是基於雙曲線而非圓來對三角函數進行模擬
+  - math.cosh(x)　　回傳 x 的雙曲余弦值。
+  - math.sinh(x)　　回傳 x 的雙曲正弦值。
+  - math.tanh(x)　　回傳 x 的雙曲正切值。
+- 反雙曲線函數: 
+  - math.acosh(x)　回傳 x 的反雙曲余弦值。
+  - math.asinh(x)　　回傳 x 的反雙曲正弦值。
+  - math.atanh(x)　　回傳 x 的反雙曲正切值。
+- 特殊函數
+  - math.erf(x)　　回傳 x 處的 error function 。
+  - math.erfc(x)　　回傳 x 處的互補誤差函數
+  - math.gamma(x)　　回傳 x 處的 伽馬函數 值。
+  - math.lgamma(x)  回傳Gamma函數在 x 絕對值的自然對數。
+- 數學常數
+  - math.pi   數學常數 π = 3.141592...，精確到可用精度。
+  - math.e  數學常數 e = 2.718281...，精確到可用精度。
+  - math.tau 數學常數 τ = 6.283185...，精確到可用精度。Tau 是一個圓周常數 = 2π = 圓的周長與半徑之比
+  - math.inf 浮點正無窮大。 （對於負無窮大，使用 -math.inf 。）相當於 float('inf') 的輸出。
+  - math.nan  一個浮點的 "非數字"（NaN）值。
 
 # 範例學習
 ```python
