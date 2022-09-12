@@ -30,7 +30,7 @@
     - Chapter 12 深度學習與 OpenCV
 - [OpenCV 圖像處理入門與實踐 榮嘉祺](https://www.tenlong.com.tw/products/9787115570567?list_name=srh) [GITHUB網址]()
 
-# AI+IOT == AIOT系統開發 
+# AI+IOT(AIOT)小型專案開發 
 - [Raspberry Pi 樹莓派：Python x AI 超應用聖經  陳會安 旗標科技](https://www.tenlong.com.tw/products/9789863126997?list_name=sp)
   - 推薦章節
     - 第5章 使用樹莓派架設伺服器
