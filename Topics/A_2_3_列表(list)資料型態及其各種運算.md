@@ -11,6 +11,7 @@
   - List items are ordered, changeable, and allow duplicate values.
   - List items are indexed, the first item has index [0], the second item has index [1] etc.
   - Allow Duplicates:Since lists are indexed, lists can have items with the same value:
+# 列表(list)資料型態的基本運算
 
 # 列表(list)資料型態的各種運算
 - 使用Python的函數:
