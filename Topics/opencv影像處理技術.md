@@ -28,9 +28,10 @@
     - Chapter 11 用 Tesseract 辨識文字
     - Chapter 12 深度學習與 OpenCV
 - [OpenCV 圖像處理入門與實踐 榮嘉祺](https://www.tenlong.com.tw/products/9787115570567?list_name=srh) [GITHUB網址]()
-- [OpenCV 4 計算機視覺：Python 語言實現]
+- [OpenCV 4 計算機視覺：Python 語言實現](https://www.tenlong.com.tw/products/9787111689485?list_name=srh)
   - Learning OpenCV 4 Computer Vision with Python 3, 3/e
   - Joseph Howse , Joe Minichino 譯 劉冰，高博 機械工業
+- [基於 GPU 加速的計算機視覺編程：使用 OpenCV 和 CUDA 實時處理複雜圖像數據 Bhaumik Vaidya 著 顧海燕 譯 機械工業](https://www.tenlong.com.tw/products/9787111651475?list_name=srh)
 
 # AI+IOT(AIOT)小型專案開發 
 - [Raspberry Pi 樹莓派：Python x AI 超應用聖經  陳會安 旗標科技](https://www.tenlong.com.tw/products/9789863126997?list_name=sp)
