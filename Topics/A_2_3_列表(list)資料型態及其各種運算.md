@@ -22,8 +22,11 @@
   - used for creating new lists from other iterables like tuples, strings, arrays, lists, etc. 
   - A list comprehension consists of brackets containing the expression, which is executed for each element along with the for loop to iterate over each element.  
 ```
-odd_square = [x ** 2 for x in range(1, 11) if x % 2 == 1]
-print(odd_square)
+X_square = [x ** 2 for x in range(1, 11) if x % 2 == 1]
+print(X_square)
+
+X2_square = [x ** 2 for x in range(1, 11) if x % 2 != 1]
+print(X2_square)
 ```
 # 列表(list)資料型態的各種運算
 - 使用Python的函數:
