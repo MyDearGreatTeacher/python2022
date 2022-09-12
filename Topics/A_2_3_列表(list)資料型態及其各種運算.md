@@ -16,7 +16,15 @@
 # 列表(list)資料型態的基本運算
 - Access List Elements:Accessing Values in Lists
 - Negative indexing
-
+- Slicing of a List
+- Negative index List slicing
+- List Comprehension:
+  - used for creating new lists from other iterables like tuples, strings, arrays, lists, etc. 
+  - A list comprehension consists of brackets containing the expression, which is executed for each element along with the for loop to iterate over each element.  
+```
+odd_square = [x ** 2 for x in range(1, 11) if x % 2 == 1]
+print(odd_square)
+```
 # 列表(list)資料型態的各種運算
 - 使用Python的函數:
   - cmp(list1, list2):比較兩個列表的元素
