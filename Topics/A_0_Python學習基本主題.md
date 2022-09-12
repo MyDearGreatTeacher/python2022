@@ -34,7 +34,7 @@
 ## 5.函數(function)
 - 函數定義與呼叫
 - 各種參數的使用技術
-- python內建函數(builtin functions)
-- 使用python內建函數解ASCII code編碼
+- [python內建函數(builtin functions)](https://docs.python.org/3/library/functions.html)
+  - 使用python內建函數解ASCII code編碼
 - lambda函數
 - 遞迴函數
