@@ -2,6 +2,11 @@
 
 # A.基本主題
 ```
+python開發環境
+雲端開發環境: Google Colab   kaggle 
+windwos 開發環境:
+Linux 開發環境:
+
 1.基本輸入與輸出 ==>格式化輸出
 2.Python資料型態(data Type)及其各種運算
 >* [1]數值(Numeric)資料及其運算
@@ -22,11 +27,15 @@
   使用python內建函數解ASCII code編碼
   lambda函數
   (*)[選擇性內容]遞迴函數
-
-6.模組
-7.Python物件導向程式設計
 ```
-# B.基本資安應用
+# 進階主題
+```
+6.模組化程式設計
+7.Python物件導向程式設計
+各種檔案存取
+各種資料庫存取
+```
+# 基本資安應用
 ```
 使用python模組解編解碼與密碼學
   python模組
@@ -43,8 +52,10 @@ Pwotools常用指令
 ```
 # Python影像處理技術
 ```
-
-
+opencv
+skimage
+pillow
+qrcode
 ```
 
 # Python資料科學
@@ -65,7 +76,8 @@ pandas
 ```
 # python科學計算
 ```
-
+使用scipy
+使用sympy
 
 ```
 # python機器學習
