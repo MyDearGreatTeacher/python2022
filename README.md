@@ -1,7 +1,11 @@
 # python學習主題
 # python開發環境
 ```
-雲端開發環境: Google Colab   kaggle 
+雲端開發環境: 
+  Google Colab   
+  kaggle
+  binder
+  JupyterHub
 windwos 開發環境:
 Linux 開發環境:
 ```
