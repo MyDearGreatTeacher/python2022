@@ -44,8 +44,12 @@ Linux 開發環境:
 # python資料結構與演算法
 
 # 證照與APCS
-- MTA Python國際認證(舊的) [Python 零基礎入門班, 2/e (含MTA Python國際認證模擬試題)鄧文淵 總監製/文淵閣工作室 編著 碁峰資訊](https://www.tenlong.com.tw/products/9789865026844?list_name=srh)
-- ITS Python國際認證(新的) [Python 零基礎入門班 (含ITS Python國際認證模擬試題)鄧文淵 總監製/文淵閣工作室 編著 碁峰資訊](https://www.tenlong.com.tw/products/9786263240155?list_name=srh)
+- MTA Python國際認證(舊的) 
+  - [Python 零基礎入門班, 2/e (含MTA Python國際認證模擬試題)鄧文淵 總監製/文淵閣工作室 編著 碁峰資訊](https://www.tenlong.com.tw/products/9789865026844?list_name=srh)
+- ITS Python國際認證(新的) 
+  - [Python 零基礎入門班 (含ITS Python國際認證模擬試題)鄧文淵 總監製/文淵閣工作室 編著 碁峰資訊](https://www.tenlong.com.tw/products/9786263240155?list_name=srh)
+- APCS
+  - 
 
 # CTF資安應用
 ```
@@ -72,7 +76,18 @@ python滲透測試技
 # Python網路爬蟲技術
 - BeautifulSoup
 - Selenium
-- 
+- Scrapy框架
+- pyspider
+  - [GITHUB](https://github.com/binux/pyspider)
+  - [Tutorial](http://docs.pyspider.org/en/latest/tutorial/)
+  - [Documentation](http://docs.pyspider.org/) 
+- [Python3 網絡爬蟲開發實戰, 2/e 崔慶才 人民郵電](https://www.tenlong.com.tw/products/9787115577092?list_name=srh)
+- [Python 網絡爬蟲實戰  呂雲翔 張揚 清華大學]()
+  - 第10章爬蟲實踐：下載網頁中的小說和購物評論 
+  - 第11章爬蟲實踐：保存感興趣的圖片 
+  - 第12章爬蟲實踐：網上影評分析 
+  - 第13章爬蟲實踐：使用爬蟲下載網頁 
+- []()
 # Python影像處理技術
 ```
 opencv
