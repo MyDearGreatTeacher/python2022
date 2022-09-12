@@ -8,6 +8,13 @@
 # 參考書籍
 - []() [GITHUB網址]()
   - 推薦章節
+- [Python OpenCV 從入門到精通 明日科技](https://www.tenlong.com.tw/products/9787302583615?list_name=srh) 
+  - 推薦章節
+    - 第14章 視頻處理 
+    - 第15章 人臉檢測和人臉識別
+    - 第16章 MR智能視頻打卡系統
+
+
 - [OpenCV 4 專案實務, 2/e](https://www.tenlong.com.tw/products/9789865022907?list_name=srh) [GITHUB網址]()
   - Learn OpenCV 4 by Building Projects: Build real-world computer vision and image processing applications with OpenCV and C++, 2/e
   - 推薦章節
