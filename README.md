@@ -42,6 +42,11 @@ Linux 開發環境:
 各種資料庫存取
 ```
 # python資料結構與演算法
+
+# 證照與APCS
+- MTA Python國際認證(舊的) [Python 零基礎入門班, 2/e (含MTA Python國際認證模擬試題)鄧文淵 總監製/文淵閣工作室 編著 碁峰資訊](https://www.tenlong.com.tw/products/9789865026844?list_name=srh)
+- ITS Python國際認證(新的) [Python 零基礎入門班 (含ITS Python國際認證模擬試題)鄧文淵 總監製/文淵閣工作室 編著 碁峰資訊](https://www.tenlong.com.tw/products/9786263240155?list_name=srh)
+
 # CTF資安應用
 ```
 使用python模組解編解碼與密碼學
@@ -56,10 +61,18 @@ Pwotools常用指令
 ```
 python滲透測試技
 ```
-# Python網路爬蟲技術
-```
+- [Python 滲透測試實戰 李華峰](https://www.tenlong.com.tw/products/9787115547132?list_name=srh)
 
-```
+# python網站開發
+- flask
+- Django
+- Tornado
+- Twisted 
+
+# Python網路爬蟲技術
+- BeautifulSoup
+- Selenium
+- 
 # Python影像處理技術
 ```
 opencv
@@ -76,10 +89,13 @@ matplotlib
 seaborn
 pandas
 ```
-# Python股票分析
-```
+# Python金融科技.....股票分析
+- yfinance
+- shioaji 
+- ta-lib
+- [Python：股票 × ETF量化交易回測 102個活用技巧 劉承彥  博碩文化](https://www.tenlong.com.tw/products/9786263331785?list_name=srh)
+- [Python 投資停看聽：運用 Open data 打造自動化燈號，學會金融分析精準投資法（iT邦幫忙鐵人賽系列書） 吳東霖 博碩文化](https://www.tenlong.com.tw/products/9786263330863?list_name=srh)
 
-```
 # Python line聊天機器人開發
 ```
 
@@ -88,7 +104,6 @@ pandas
 ```
 使用scipy
 使用sympy
-
 ```
 # python機器學習
 ```
