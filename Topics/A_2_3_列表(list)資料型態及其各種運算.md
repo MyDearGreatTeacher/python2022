@@ -21,13 +21,7 @@
 - List Comprehension:
   - used for creating new lists from other iterables like tuples, strings, arrays, lists, etc. 
   - A list comprehension consists of brackets containing the expression, which is executed for each element along with the for loop to iterate over each element.  
-```
-X_square = [x ** 2 for x in range(1, 11) if x % 2 == 1]
-print(X_square)
 
-X2_square = [x ** 2 for x in range(1, 11) if x % 2 != 1]
-print(X2_square)
-```
 # 列表(list)資料型態的各種運算
 - 使用Python的函數:
   - cmp(list1, list2):比較兩個列表的元素
@@ -46,3 +40,15 @@ print(X2_square)
   - list.remove(obj):移除列表中某個值的第一個匹配項
   - list.reverse():反向列表中元素
   - list.sort(cmp=None, key=None, reverse=False):對原列表進行排序
+
+
+# 範例學習:請自行擴充各種範例
+
+### List Comprehension
+```
+X_square = [x ** 2 for x in range(1, 11) if x % 2 == 1]
+print(X_square)
+
+X2_square = [x ** 2 for x in range(1, 11) if x % 2 != 1]
+print(X2_square)
+```
