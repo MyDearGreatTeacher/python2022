@@ -18,18 +18,28 @@ a == b == c == d == e == f
 - Numeric types used for keys obey the normal rules for numeric comparison: 
 - if two numbers compare equal (such as 1 and 1.0) then they can be used interchangeably to index the same dictionary entry. 
 - (Note however, that since computers store floating-point numbers as approximations it is usually unwise to use them as dictionary keys.)
+- 字典的每筆資料都使用key(鍵)=>value(值) pair(對)
+- 每筆資料都使用冒號 : 分割
+- 每對之間用逗號(,)分割，
+- 整個字典包括在花括弧 {} 
+- key(鍵)必須是唯一的，但value(值)則不必。
+- Python 內建許多函數: len(dict):計算字典元素個數，即鍵的總數。
+- Python 內建許多方法(Method):
+  - 字典.items():以列表返回LIST陣列
+  - 字典.keys():返回所有keys
+  - 字典.values():返回所有values
 
 ## 字典(dict)資料型態的運算
-- list(d)   Return a list of all the keys used in the dictionary d.
-- len(d)   Return the number of items in the dictionary d.
-- d[key]  Return the item of d with key key. Raises a KeyError if key is not in the map.
-- d[key] = value  Set d[key] to value.
-- del d[key]  Remove d[key] from d. Raises a KeyError if key is not in the map.
-- key in d  Return True if d has a key key, else False.
-- key not in d  Equivalent to not key in d.
-- iter(d)  Return an iterator over the keys of the dictionary. This is a shortcut for iter(d.keys()).
-- clear()  Remove all items from the dictionary.
-- copy()  Return a shallow copy of the dictionary.
+- list(d)   ==>  Return a list of all the keys used in the dictionary d.
+- len(d)    ==>  Return the number of items in the dictionary d.
+- d[key]    ==>  Return the item of d with key key. Raises a KeyError if key is not in the map.
+- d[key] = value  ==>  Set d[key] to value.
+- del d[key]  ==>  Remove d[key] from d. Raises a KeyError if key is not in the map.
+- key in d  ==>  Return True if d has a key key, else False.
+- key not in d  ==>  Equivalent to not key in d.
+- iter(d)  ==>  Return an iterator over the keys of the dictionary. This is a shortcut for iter(d.keys()).
+- clear()  ==>  Remove all items from the dictionary.
+- copy()   ==>  Return a shallow copy of the dictionary.
 - classmethod fromkeys(iterable[, value])   
   - Create a new dictionary with keys from iterable and values set to value.
   - fromkeys() is a class method that returns a new dictionary. 
@@ -39,8 +49,8 @@ a == b == c == d == e == f
 - get(key[, default]) 
   - Return the value for key if key is in the dictionary, else default. 
   - If default is not given, it defaults to None, so that this method never raises a KeyError.
-- items()   Return a new view of the dictionary’s items ((key, value) pairs). See the documentation of view objects.
-- keys()  Return a new view of the dictionary’s keys. See the documentation of view objects.
+- items()   ==>  Return a new view of the dictionary’s items ((key, value) pairs). See the documentation of view objects.
+- keys()    ==>  Return a new view of the dictionary’s keys. See the documentation of view objects.
 - pop(key[, default])
   - If key is in the dictionary, remove it and return its value, else return default. 
   - If default is not given and key is not in the dictionary, a KeyError is raised.
@@ -59,7 +69,8 @@ a == b == c == d == e == f
   - Update the dictionary with the key/value pairs from other, overwriting existing keys. Return None.
   - update() accepts either another dictionary object or an iterable of key/value pairs (as tuples or other iterables of length two). 
   - If keyword arguments are specified, the dictionary is then updated with those key/value pairs: d.update(red=1, blue=2).
-- values()  Return a new view of the dictionary’s values. 
+- values()  ==>  Return a new view of the dictionary’s values. 
+
 ## Dictionary view objects
 - The objects returned by dict.keys(), dict.values() and dict.items() are view objects. 
 - They provide a dynamic view on the dictionary’s entries, which means that when the dictionary changes, the view reflects these changes.
@@ -81,4 +92,23 @@ a == b == c == d == e == f
 - dictview.mapping
   - Return a types.MappingProxyType that wraps the original dictionary to which the view refers.
   - New in version 3.10.
-  - 
+
+# 範例學習
+
+- 使用字典(dict)資料寫成簡單的小寫英文字母 的[ASCII](https://en.wikipedia.org/wiki/ASCII)字典
+  - a-->97  ... z-->122
+- 範例1:key 是數字 value是小寫英文字母 97-->a  ... 122-->z
+```python
+ascii_a2z = {num: chr(num) for num in range(97,123)}
+ascii_a2z
+```
+- 範例2:key 是小寫英文字母   value是 數字 a-->97  ... z-->122
+```python
+alphas= []
+for num in range(97,123):
+    alpha = chr(num)
+    alphas.append(alpha)
+ 
+ascii_a2z = {alpha: ord(alpha) for alpha in alphas}
+ascii_a2z
+``` 
