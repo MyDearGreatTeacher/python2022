@@ -8,14 +8,14 @@
 # 參考書籍
 - []() [GITHUB網址]()
   - 推薦章節
+- [OpenCV 4 詳解：基於 Python 馮振，陳亞萌](https://www.tenlong.com.tw/products/9787115566034?list_name=srh) [GITHUB網址](https://github.com/fengzhenHIT/learnOpenCV4_Python)
+- [AIOT 與 OpenCV 實戰應用：Python、樹莓派、物聯網與機器視覺, 2/e 朱克剛](https://www.tenlong.com.tw/products/9789865027162?list_name=srh)
 - [Python OpenCV 從入門到精通 明日科技](https://www.tenlong.com.tw/products/9787302583615?list_name=srh) 
   - 推薦章節
     - 第14章 視頻處理 
     - 第15章 人臉檢測和人臉識別
     - 第16章 MR智能視頻打卡系統
-
-
-- [OpenCV 4 專案實務, 2/e](https://www.tenlong.com.tw/products/9789865022907?list_name=srh) [GITHUB網址](https://github.com/PacktPublishing/Learn-OpenCV-4-By-Building-Projects-Second-Edition)
+- [OpenCV 4 專案實務, 2/e](https://www.tenlong.com.tw/products/9789865022907?list_name=srh) ....    [GITHUB網址](https://github.com/PacktPublishing/Learn-OpenCV-4-By-Building-Projects-Second-Edition)
   - [Learn OpenCV 4 by Building Projects: Build real-world computer vision and image processing applications ..](https://www.packtpub.com/product/learn-opencv-4-by-building-projects-second-edition/9781789341225)
   - 推薦章節
     - Chapter 3 圖形使用者介面與基本濾鏡
