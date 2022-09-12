@@ -107,11 +107,16 @@ qrcode
 # Python資料科學
 ```
 NUMPY
-資料視覺化技術
-matplotlib
-seaborn
+
 pandas
 ```
+- 資料視覺化技術
+  - matplotlib
+  - seaborn
+- [Python 資料可視化之美：極專業圖表製作高手書 (全彩印刷)張傑](https://www.tenlong.com.tw/products/9789865501457?list_name=srh)
+  - [GITHUB](https://github.com/Easy-Shu/Beautiful-Visualization-with-python) 
+- [Python 資料可視化攻略小久保奈都彌 許郁文 譯](https://www.tenlong.com.tw/products/9789865028039?list_name=srh)
+
 # Python金融科技.....股票分析
 - yfinance
 - shioaji 
