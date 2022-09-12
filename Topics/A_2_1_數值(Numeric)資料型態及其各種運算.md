@@ -23,8 +23,8 @@
   - x / y  ==> quotient of x and y
   - x // y ==> floored quotient of x and y
 - 模運算相關
-- x % y  ==> remainder of x / y
-- divmod(x, y) ==> the pair (x // y, x % y)
+  - x % y  ==> remainder of x / y
+  - divmod(x, y) ==> the pair (x // y, x % y)
 - `-x`   ==> x negated
 - +x     ==> x unchanged
 - abs(x) ==> absolute value or magnitude of x
