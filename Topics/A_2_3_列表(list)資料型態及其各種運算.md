@@ -3,7 +3,7 @@
 - [Python 列表(List)]()
 - [Python List (With Examples) - Programiz]()
 # 列表(list)資料型態
-- 列表(list)資料型態 ==> `mylist = ["apple", 2022, "iphone 14 Pro Max", "MAC", 2022]`
+- 列表(list)資料型態 ==> `mylist = ["apple", 2022, 65536.168, "iphone 14 Pro Max", "MAC", 2022]`
 - Lists are created using `square brackets`
 - Lists are used to store multiple items(List Items) in a single variable.
   - a list of `comma-separated values (items)` between `square brackets`
@@ -43,7 +43,27 @@
 
 
 # 範例學習:請自行擴充各種範例
+### 列表(list)資料型態的基本運算
+```python
+mylist = ["apple", 2022, 65536.168, "iphone 14 Pro Max", "MAC", 2022]
 
+# Access List Elements:Accessing Values in Lists
+mylist[0]
+mylist[4]
+
+# Negative indexing
+mylist[-3]
+mylist[-1]
+
+# Slicing of a List
+mylist[:3]
+mylist[2:]
+mylist[:]
+
+# Negative index List slicing
+
+
+```
 ### List Comprehension
 ```
 X_square = [x ** 2 for x in range(1, 11) if x % 2 == 1]
@@ -52,3 +72,9 @@ print(X_square)
 X2_square = [x ** 2 for x in range(1, 11) if x % 2 != 1]
 print(X2_square)
 ```
+
+- 更多範例學習
+  - [Python program to interchange first and last elements in a list](https://www.geeksforgeeks.org/python-swap-elements-in-string-list/)
+  - [Python List Comprehension and Slicing](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)
+  - [Nested List Comprehensions in Python](https://www.geeksforgeeks.org/nested-list-comprehensions-in-python/)
+  - [Python – Swap elements in String list](https://www.geeksforgeeks.org/python-swap-elements-in-string-list/)
