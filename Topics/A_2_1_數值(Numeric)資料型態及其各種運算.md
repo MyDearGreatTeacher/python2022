@@ -14,3 +14,9 @@
 - Appending 'j' or 'J' to a numeric literal yields an imaginary number (a complex number with a zero real part) which you can add to an integer or float to get a complex number with real and imaginary parts.
 - Python fully supports mixed arithmetic: when a binary arithmetic operator has operands of different numeric types, the operand with the “narrower” type is widened to that of the other, where integer is narrower than floating point, which is narrower than complex. A comparison between numbers of different types behaves as though the exact values of those numbers were being compared. 2
 - The constructors int(), float(), and complex() can be used to produce numbers of a specific type.
+
+#
+```python
+import sys
+sys.float_info
+```
