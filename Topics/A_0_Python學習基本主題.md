@@ -3,8 +3,14 @@
 
 # Python學習基本主題
 ## 1.基本輸入與輸出 
-- 基本輸入與輸出:input()
-- 格式化輸出
+- 基本輸入與輸出:input()|print()
+- python格式化輸出技術
+  - 1.%-formatting:使用String modulo operator(%)
+  - 2.str.format:使用format 方法 
+  - 3.f-string:格式字串字面值（Formatted String Literal）| “Literal String Interpolation”
+  - 更多格式化輸出方法請參閱底下資料
+    - [Python | Output Formatting](https://www.geeksforgeeks.org/python-output-formatting/)
+    - [Python 字串格式化教學與範例](https://officeguide.cc/python-string-formatters-tutorial/)
 
 ## 2.Python資料型態(data Type)及其各種運算
 - 數值(Numeric)資料型態及其各種運算
