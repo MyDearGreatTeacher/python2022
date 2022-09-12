@@ -10,16 +10,20 @@
   - A list can have any number of items and they may be of different types (integer, float, string, etc.)
   - List items are ordered, changeable, and allow duplicate values.
   - List items are indexed, the first item has index [0], the second item has index [1] etc.
-  - Allow Duplicates:Since lists are indexed, lists can have items with the same value:
+  - Allow Duplicates: Since lists are indexed, lists can have items with the same value:
+- list是一個`類別(class)` ==> `list()` constructor 加上一堆方法
+
 # 列表(list)資料型態的基本運算
+- Access List Elements:Accessing Values in Lists
+- Negative indexing
 
 # 列表(list)資料型態的各種運算
 - 使用Python的函數:
   - cmp(list1, list2):比較兩個列表的元素
-  - len(list):列表元素個數
-  - max(list):返回列表元素最大值
-  - min(list):返回列表元素最小值
-  - list(seq):將元組轉換為列0 
+  - len(list):回傳列表元素的個數
+  - max(list):回傳列表元素最大值
+  - min(list):回傳列表元素最小值
+  - list(seq):將`元組(seq)`轉換為`列表(list)` ==>`list()` constructor
 
 - 使用Python list類別的方法(method)
   - list.append(obj):在列表末尾添加新的obj物件
