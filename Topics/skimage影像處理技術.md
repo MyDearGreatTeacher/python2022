@@ -1,5 +1,6 @@
 # [scikit-image](https://scikit-image.org/docs/stable/api/skimage.html)
--
+- [User Guide使用者指南](https://scikit-image.org/docs/stable/user_guide.html)
+- [API Reference for skimage 0.19.2](https://scikit-image.org/docs/stable/api/api.html)
 - 子模組套件Subpackages:
   - color(各種影像色彩轉換)   Color space conversion.
   - data    Test images and example data.
@@ -57,7 +58,38 @@ ax[1].set_title("Grayscale")
 fig.tight_layout()
 plt.show()
 ```
+# 範例學習3 : Thresholding圖像分割
+- skimage.filters.threshold_otsu
+- [Thresholding:Thresholding is used to create a binary image from a grayscale image](https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_thresholding.html#sphx-glr-auto-examples-segmentation-plot-thresholding-py)
+```python
+import matplotlib.pyplot as plt
+from skimage import data
+from skimage.filters import threshold_otsu
 
+image = data.camera()
+thresh = threshold_otsu(image)
+binary = image > thresh
+
+fig, axes = plt.subplots(ncols=3, figsize=(8, 2.5))
+ax = axes.ravel()
+ax[0] = plt.subplot(1, 3, 1)
+ax[1] = plt.subplot(1, 3, 2)
+ax[2] = plt.subplot(1, 3, 3, sharex=ax[0], sharey=ax[0])
+
+ax[0].imshow(image, cmap=plt.cm.gray)
+ax[0].set_title('Original')
+ax[0].axis('off')
+
+ax[1].hist(image.ravel(), bins=256)
+ax[1].set_title('Histogram')
+ax[1].axvline(thresh, color='r')
+
+ax[2].imshow(binary, cmap=plt.cm.gray)
+ax[2].set_title('Thresholded')
+ax[2].axis('off')
+
+plt.show()
+```
 # 範例學習
 
 - []()
