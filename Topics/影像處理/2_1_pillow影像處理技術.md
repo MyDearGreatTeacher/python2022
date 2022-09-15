@@ -35,9 +35,7 @@ im.save("test.png","png")
 - 圖片旋轉 == > transpose()
 - 製作縮圖 == > thumbnail()
 - 加入濾鏡  == > fliter()
--   == > 
--   == > 
--   == > 
+
 ```python
 from glob import glob
 from os.path import splitext
@@ -64,6 +62,7 @@ for jpg in jpglist:
 ## [資料來源2:[Day 21] 從零開始學Python - 基本圖形處理Pillow：花下是誰對影成雙](https://ithelp.ithome.com.tw/articles/10247292)
 
 
+## GIF產生 [筆記參考來源]()
 ## GIF讀取與處理 [筆記參考來源](https://pillow-zh-cn.readthedocs.io/zh_CN/latest/handbook/image-file-formats.html)
 - PIL會讀取 GIF87a 和 GIF89a 標準的 GIF 檔案. 
 - 預設使用 GIF87a 標準的編碼, 除非用到了 GIF89a 的特性.
