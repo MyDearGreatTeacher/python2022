@@ -67,7 +67,7 @@ Pwotools常用指令
   - [基於數據科學的惡意軟件分析  Joshua Saxe 機械工業(2020)](https://www.tenlong.com.tw/products/9787111646525?list_name=srh)
 - Python數位鑑識
   - [實戰 Linux 系統數位鑑識 (Practical Linux Forensics: A Guide for Digital Investigators) Bruce Nikkel 著 江湖海 譯 碁峰(2022)](https://www.tenlong.com.tw/products/9786263242876?list_name=srh)
-
+- [Python全棧安全 Full Stack Python Security: Cryptography, Tls, and Attack Resistance Dennis Byrne 譯 趙宏偉 姚領田 馮少棟 唐進(2022)](https://www.tenlong.com.tw/products/9787302605683?list_name=srh)
 # python網站開發
 - flask
 - Django
