@@ -7,6 +7,7 @@
 
 # pillow套件
 - [Reference](https://pillow.readthedocs.io/en/stable/reference/index.html#)
+  - 有許多子模組 僅先簡略說明最常用的 子模組
   - [Image子模組](https://pillow.readthedocs.io/en/stable/reference/Image.html)
   - [ImageDraw子模組](https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html)
 
@@ -61,3 +62,16 @@ for jpg in jpglist:
 ```
 
 ## [資料來源2:[Day 21] 從零開始學Python - 基本圖形處理Pillow：花下是誰對影成雙](https://ithelp.ithome.com.tw/articles/10247292)
+
+
+## GIF讀取與處理 [筆記參考來源](https://pillow-zh-cn.readthedocs.io/zh_CN/latest/handbook/image-file-formats.html)
+- PIL會讀取 GIF87a 和 GIF89a 標準的 GIF 檔案. 
+- 預設使用 GIF87a 標準的編碼, 除非用到了 GIF89a 的特性.
+- 值得注意的是, GIF 檔總是以 grayscale (L) 或者 palette (P) 模式讀取.
+- open() 方法設置了 info 的這幾個屬性:
+  - background   背景色 (調色板顏色).
+  - duration  兩個幀之間的時間間隔 (毫秒計).
+  - transparency  透明度. 當圖像不是透明的時候, 這個屬性會被忽略.
+  - version 標準 (GIF87a 或 GIF89a).
+  - duration 用於顯示 GIF 圖像的每一幀, 以毫秒計.(可能被忽略)
+  - loop GIF 檔的迴圈次數(可能被忽略).
