@@ -62,10 +62,11 @@ Pwotools模組安裝
 Pwotools常用指令
 ```
 # 資安實務應用
-```
-python滲透測試技
-```
 - [Python 滲透測試實戰 李華峰](https://www.tenlong.com.tw/products/9787115547132?list_name=srh)
+- [python惡意程式分析]
+  - [基於數據科學的惡意軟件分析  Joshua Saxe 機械工業(2020)](https://www.tenlong.com.tw/products/9787111646525?list_name=srh)
+- Python數位鑑識
+  - [實戰 Linux 系統數位鑑識 (Practical Linux Forensics: A Guide for Digital Investigators) Bruce Nikkel 著 江湖海 譯 碁峰(2022)](https://www.tenlong.com.tw/products/9786263242876?list_name=srh)
 
 # python網站開發
 - flask
