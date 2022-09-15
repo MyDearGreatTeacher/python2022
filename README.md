@@ -49,7 +49,7 @@ Linux 開發環境:
 - ITS Python國際認證(新的) 
   - [Python 零基礎入門班 (含ITS Python國際認證模擬試題)鄧文淵 總監製/文淵閣工作室 編著 碁峰資訊](https://www.tenlong.com.tw/products/9786263240155?list_name=srh)
 - APCS
-  - 
+  - [APCS 完全攻略：從新手到高手，Python 解題必備！ 胡昭民、吳燦銘  博碩文化 2022-08-30](https://www.tenlong.com.tw/products/9786263332171?list_name=srh)
 
 # CTF資安應用
 ```
