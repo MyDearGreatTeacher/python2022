@@ -7,6 +7,13 @@
 - json 檔案處理
 
 # python office automation
+- [Python + Office：輕松實現 Python 辦公自動化 王國平 電子工業 2021-07-01](https://www.tenlong.com.tw/products/9787121414404?list_name=srh)
+
+# 推薦參考書籍
+- [超高效！Python × Excel 資料分析自動化：輕鬆打造你的完美工作法！ 吳燦銘  博碩文化 2022-05-02](https://www.tenlong.com.tw/products/9786263330856?list_name=srh)
+- [Python for Excel｜自動化與資料分析的現代開發環境 (Python for Excel: A Modern Environment for Automation and Data Analysis) Felix Zumstein 著 沈佩誼 譯 歐萊禮 2021-11-16](https://www.tenlong.com.tw/products/9789865029340?list_name=srh)
+
+
 # Python Automation
 - [Python 編程快速上手 : 讓繁瑣工作自動化, 2/e 人民郵電(2021)](https://www.tenlong.com.tw/products/9787115551870?list_name=srh)
   - Automate the Boring Stuff with Python : Practical Programming for Total Beginners, 2/e)Al Sweigart 王海鵬譯
@@ -30,6 +37,4 @@
     - Automatically generate a marketing campaign, contacting the recipients over different channels
 
 
-# 推薦參考書籍
-- [超高效！Python × Excel 資料分析自動化：輕鬆打造你的完美工作法！ 吳燦銘  博碩文化 2022-05-02](https://www.tenlong.com.tw/products/9786263330856?list_name=srh)
-- [Python for Excel｜自動化與資料分析的現代開發環境 (Python for Excel: A Modern Environment for Automation and Data Analysis) Felix Zumstein 著 沈佩誼 譯 歐萊禮 2021-11-16](https://www.tenlong.com.tw/products/9789865029340?list_name=srh)
+
