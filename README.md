@@ -13,7 +13,7 @@
 - windwos 開發環境:
 - Linux 開發環境:
   - [Kali2019](https://drive.google.com/file/d/1m620Z7KAOSUOLdFH92FYLE2NINb-vJsn/view?usp=sharing)
-  - [ubuntu 18.04 LTS(https://drive.google.com/file/d/1aP-qCFP6jKsGYXtKy9ahwZleQSENEi7C/view?usp=sharing)
+  - [ubuntu 18.04 LTS](https://drive.google.com/file/d/1aP-qCFP6jKsGYXtKy9ahwZleQSENEi7C/view?usp=sharing)
 
 
 # A.基本主題
