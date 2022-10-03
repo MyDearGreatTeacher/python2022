@@ -1,11 +1,20 @@
 # 主動股票分析暨通知系統開發
 - 關鍵技術
-  - LINE BOT
-  - 爬蟲 ==> 爬股票
+  - LINE BOT ==> 會員通知| 股票提醒
+  - 爬蟲 ==> 爬股票資料
   - 資料分析 == > numpy, Matplotlib/seaborn, pandas
   - 股票分析 ==> yfinance 
-    - [Python 股票分析：Stocker 強大的股價預測分析工具 (附完整程式碼)](https://weikaiwei.com/finance/stocker/) 
+    - [Python 股票分析：Stocker 強大的股價預測分析工具 (附完整程式碼)](https://weikaiwei.com/finance/stocker/)
+    - [FinLab x Google雲端平台 | 3步驟實現全自動交易，從今以後躺著都能賺！(上)]() 
+    - [python 入門到分析股市](https://ithelp.ithome.com.tw/users/20111390/ironman/1791?page=3)
+  - 進階主題
+    - 機器學習 + 人工智慧
+    - 雲端技術: k8s
 
+# 資訊安全
+- 滲透測試
+  - [CEH EC-Council CEH駭客技術專家認證課程](https://www.uuu.com.tw/Course/Show/300/EC-Council-CEH-7-%E9%A7%AD%E5%AE%A2%E6%8A%80%E8%A1%93%E5%B0%88%E5%AE%B6%E8%AA%8D%E8%AD%89%E8%AA%B2%E7%A8%8B)
+  - [OSCP PEN-200 | PENETRATION TESTING COURSE & CERTIFICATION](https://www.offensive-security.com/pwk-oscp/)
 # Python網路爬蟲技術
 - urllib
 - requests
