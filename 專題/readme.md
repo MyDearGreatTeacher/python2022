@@ -4,6 +4,7 @@
   - 爬蟲 ==> 爬股票
   - 資料分析 == > numpy, Matplotlib/seaborn, pandas
   - 股票分析 ==> yfinance 
+    - [Python 股票分析：Stocker 強大的股價預測分析工具 (附完整程式碼)](https://weikaiwei.com/finance/stocker/) 
 
 # Python網路爬蟲技術
 - urllib
