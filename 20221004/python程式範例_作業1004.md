@@ -9,6 +9,7 @@
     - Bitwise operators
     - Precedence and Associativity of Operators in Python 
       - [算術子執行時的優先順序: 1](https://www.programiz.com/python-programming/precedence-associativity) 
+      - [Python Operators Precedence Example - Tutorialspoint]()
   - 字串str的各種運算 [參考範例](https://www.w3schools.com/python/python_strings.asp)
     - [Slicing 運算](https://www.w3schools.com/python/python_strings_slicing.asp)
     - [Modify Strings](https://www.w3schools.com/python/python_strings_modify.asp)
