@@ -1,0 +1,86 @@
+# python快速學習地圖
+# 20221004_Python Coding
+- [Python Tutorial](https://www.w3schools.com/python/)
+- [Python Tutorial](https://www.tutorialspoint.com/python/index.htm)
+## 看看網路教學影片
+- [Python for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8&ab_channel=ProgrammingwithMosh)
+- [Python Tutorial - Python Full Course for Beginners](https://www.youtube.com/watch?v=_uQrJ0TkZlc&ab_channel=ProgrammingwithMosh)
+
+## 課程內容
+- CH 1.標準輸入(stdin)與標準輸出(stdout)
+  - python輸入:input()
+  - python輸出: print()
+  - python格式化輸出技術
+- CH 2.認識資料型態
+  - [Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
+  - Built-in Data Types
+    - Text Type:	str
+    - Numeric Types:	int, float, complex
+    - Sequence Types:	list, tuple, range
+    - Mapping Type:	dict
+    - Set Types:	set, frozenset
+    - Boolean Type:	bool
+    - Binary Types:	bytes, bytearray, memoryview
+    - None Type:	NoneType
+- CH 3.各種資料型態的許多運算
+  - 整數的各種運算 [參考範例](https://www.w3schools.com/python/python_numbers.asp)  [Python Operators](https://www.w3schools.com/python/python_operators.asp)
+    - Arithmetic operators
+    - Assignment operators
+    - Comparison operators
+    - Logical operators
+    - Identity operators
+    - Membership operators
+    - Bitwise operators
+    - Precedence and Associativity of Operators in Python 
+      - [算術子執行時的優先順序: 1](https://www.programiz.com/python-programming/precedence-associativity) 
+      - [Python Operators Precedence Example - Tutorialspoint]()
+  - 字串str的各種運算 [參考範例](https://www.w3schools.com/python/python_strings.asp)
+    - [Slicing 運算](https://www.w3schools.com/python/python_strings_slicing.asp)
+    - [Modify Strings](https://www.w3schools.com/python/python_strings_modify.asp)
+    - [String Concatenation(串接)](https://www.w3schools.com/python/python_strings_concatenate.asp)
+    - [String Format](https://www.w3schools.com/python/python_strings_format.asp)
+    - [Escape Characters](https://www.w3schools.com/python/python_strings_escape.asp)
+    - [Python built-in String methods](https://www.w3schools.com/python/python_strings_methods.asp)
+      - capitalize()
+      - count()
+      - 族繁不及備載, 請上網蒐集並整理資料
+  - 列表list的各種運算  [參考範例](https://www.w3schools.com/python/python_lists.asp)
+    - Access List Items
+    - Change List Items
+    - Add List Items
+    - Remove List Items
+    - Loop Lists
+    - List Comprehension
+    - Sort Lists
+    - Copy Lists
+    - Join Lists
+    - [Python built-in List methods](https://www.w3schools.com/python/python_lists_methods.asp)
+  - 字典dict的各種運算 [參考範例](https://www.w3schools.com/python/python_dictionaries.asp)
+    - Access Items
+    - Change Items
+    - Add Items
+    - Remove Items
+    - Loop Dictionaries
+    - Copy Dictionaries
+    - Nested Dictionaries
+    - Dictionary Methods
+
+- Ch 4.python決策與選擇結構==>
+  - if     
+  - if..elsif     
+  - if..else
+  - if..elsif..elsif..else
+- CH 5.廻圈(loop)
+  - 使用range 函式 的功能建立整數數列
+  - 使用for 廻圈 執行固定次數的廻圈運算(通常)
+  - 使用while 廻圈執行沒有固定次數的廻圈運算
+  - continue 指令與 break 指令
+  - pass 指令
+- ch 6.函數(function)
+  - 函數定義與呼叫
+  - 函數的各種參數
+  - python內建函數(builtin functions)
+  - 使用python內建函數解ASCII code編碼
+  - lambda函數
+  - 遞迴函數
+
