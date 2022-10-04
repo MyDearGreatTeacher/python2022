@@ -57,8 +57,8 @@ print(a)
 ```
 
 ```pthon
-
-
+a = "Hello, World!"
+print(a[0:7])
 ```
 
 ```pthon
