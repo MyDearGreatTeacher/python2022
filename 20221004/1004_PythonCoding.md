@@ -43,3 +43,72 @@
   - 使用python內建函數解ASCII code編碼
   - lambda函數
   - 遞迴函數
+
+## 字串str的各種運算
+```pthon
+# Multiline Strings
+# You can assign a multiline string to a variable by using three quotes:
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+```
+
+```pthon
+
+
+```
+
+```pthon
+
+
+```
+
+```pthon
+
+
+```
+
+
+
+```pthon
+
+
+```
+
+```pthon
+
+
+```
+
+
+
+```pthon
+
+
+```
+
+```pthon
+
+
+```
+
+
+
+```pthon
+
+
+```
+
+```pthon
+
+
+```
+
+
+
+
+
+
