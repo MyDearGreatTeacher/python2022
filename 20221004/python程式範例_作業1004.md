@@ -6,11 +6,21 @@
     - [String Concatenation(串接)](https://www.w3schools.com/python/python_strings_concatenate.asp)
     - [String Format](https://www.w3schools.com/python/python_strings_format.asp)
     - [Escape Characters](https://www.w3schools.com/python/python_strings_escape.asp)
-    - [Python built-in methods](https://www.w3schools.com/python/python_strings_methods.asp)
+    - [Python built-in String methods](https://www.w3schools.com/python/python_strings_methods.asp)
       - capitalize()
       - count()
       - 族繁不及備載, 請上網蒐集並整理資料
   - 列表list的各種運算  [參考範例](https://www.w3schools.com/python/python_lists.asp)
+    - Access List Items
+    - Change List Items
+    - Add List Items
+    - Remove List Items
+    - Loop Lists
+    - List Comprehension
+    - Sort Lists
+    - Copy Lists
+    - Join Lists
+    - [Python built-in List methods](https://www.w3schools.com/python/python_lists_methods.asp)
   - 字典dict的各種運算 [參考範例](https://www.w3schools.com/python/python_dictionaries.asp)
 
 ## 整數的各種運算 [參考範例](https://www.w3schools.com/python/python_numbers.asp)  [Python Operators](https://www.w3schools.com/python/python_operators.asp)
