@@ -1,5 +1,14 @@
 # CH 3.各種資料型態的許多運算
   - 整數的各種運算 [參考範例](https://www.w3schools.com/python/python_numbers.asp)  [Python Operators](https://www.w3schools.com/python/python_operators.asp)
+    - Arithmetic operators
+    - Assignment operators
+    - Comparison operators
+    - Logical operators
+    - Identity operators
+    - Membership operators
+    - Bitwise operators
+    - Precedence and Associativity of Operators in Python 
+      - [算術子執行時的優先順序: 1](https://www.programiz.com/python-programming/precedence-associativity) 
   - 字串str的各種運算 [參考範例](https://www.w3schools.com/python/python_strings.asp)
     - [Slicing 運算](https://www.w3schools.com/python/python_strings_slicing.asp)
     - [Modify Strings](https://www.w3schools.com/python/python_strings_modify.asp)
@@ -22,6 +31,14 @@
     - Join Lists
     - [Python built-in List methods](https://www.w3schools.com/python/python_lists_methods.asp)
   - 字典dict的各種運算 [參考範例](https://www.w3schools.com/python/python_dictionaries.asp)
+    - Access Items
+    - Change Items
+    - Add Items
+    - Remove Items
+    - Loop Dictionaries
+    - Copy Dictionaries
+    - Nested Dictionaries
+    - Dictionary Methods
 
 ## 整數的各種運算 [參考範例](https://www.w3schools.com/python/python_numbers.asp)  [Python Operators](https://www.w3schools.com/python/python_operators.asp)
 
