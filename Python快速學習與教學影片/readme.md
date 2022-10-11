@@ -28,8 +28,9 @@
   - 5.1.range 函式 [教學影片@YOUTUBE](https://youtu.be/Al2C5bUEMCY)
   - 5.2.使用for 廻圈 執行固定次數的廻圈運算(通常)[教學影片@YOUTUBE](https://youtu.be/T66hPV7Pbh4)
   - 5.3.使用while 廻圈執行沒有固定次數的廻圈運算[教學影片@YOUTUBE](https://youtu.be/WW_b7huHezs)
-  - 5.4.break 指令[教學影片@YOUTUBE](https://youtu.be/1kxwZqqICkw)
-  - 5.5.continue 指令[教學影片@YOUTUBE](https://www.youtube.com/watch?v=Ugmv_dhzj1w)
+  - Loop control statement(迴圈控制語句)
+    - 5.4.break 語句[教學影片@YOUTUBE](https://youtu.be/1kxwZqqICkw)
+    - 5.5.continue 語句[教學影片@YOUTUBE](https://www.youtube.com/watch?v=Ugmv_dhzj1w)
 - 6.函數(function)  後續錄影
   - 學習主題 
     - 函數定義與呼叫
