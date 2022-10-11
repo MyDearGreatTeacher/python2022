@@ -3,9 +3,11 @@
 
 # Python程式
 - 1.Python開發環境Google Colab
-  - [教學資料](0_python開發環境.md)
+  - [教學資料](./0_python開發環境.md)
   - [YOUTUBE教學影片](https://youtu.be/4iyU3XKhz7Q)
-- 2.基本輸入與輸出 [YOUTUBE教學影片](https://youtu.be/YX7Vt_6lAQY) 
+- 2.基本輸入與輸出 
+  - [教學資料](./1_基本輸入與輸出.md)
+  - [YOUTUBE教學影片](https://youtu.be/YX7Vt_6lAQY) 
 - 3.各種資料型態極其許多運算
   - 3.1.1[數值Numeric資料及其運算_1_2022 06 19](https://youtu.be/KSwDTSubS1M)
   - 3.1.2[數值Numeric資料及其運算_2_59 08 2022 06 19](https://youtu.be/FSo8k4vFYGc)
