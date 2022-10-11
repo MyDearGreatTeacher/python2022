@@ -16,10 +16,10 @@
   - if..else
   - if..elsif..elsif..else
 - 5.廻圈(loop)
-  - 5.1.range 函式 [YOUTUBE教學影片](https://youtu.be/Ugmv_dhzj1w)
-  - 5.2.使用for 廻圈 執行固定次數的廻圈運算(通常)[YOUTUBE教學影片](https://youtu.be/Ugmv_dhzj1w)
-  - 5.3.使用while 廻圈執行沒有固定次數的廻圈運算[YOUTUBE教學影片](https://youtu.be/Ugmv_dhzj1w)
-  - 5.4.break 指令[YOUTUBE教學影片](https://youtu.be/Ugmv_dhzj1w)
+  - 5.1.range 函式 [YOUTUBE教學影片](https://youtu.be/Al2C5bUEMCY)
+  - 5.2.使用for 廻圈 執行固定次數的廻圈運算(通常)[YOUTUBE教學影片](https://youtu.be/T66hPV7Pbh4)
+  - 5.3.使用while 廻圈執行沒有固定次數的廻圈運算[YOUTUBE教學影片](https://youtu.be/WW_b7huHezs)
+  - 5.4.break 指令[YOUTUBE教學影片](https://youtu.be/1kxwZqqICkw)
   - 5.5.continue 指令[YOUTUBE教學影片](https://www.youtube.com/watch?v=Ugmv_dhzj1w)
 - 6.函數(function)  後續錄影
   - 函數定義與呼叫
