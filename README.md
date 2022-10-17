@@ -15,6 +15,13 @@
   - 使用anaconda [下載點](https://www.python.org/downloads/)
     - conda  [下載點](https://www.anaconda.com/products/distribution)
       - [用conda建立及管理python虛擬環境](https://medium.com/python4u/%E7%94%A8conda%E5%BB%BA%E7%AB%8B%E5%8F%8A%E7%AE%A1%E7%90%86python%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83-b61fd2a76566)
+  - 使用visual studio code開發python
+    - [下載visual studio code](https://code.visualstudio.com/)
+    - [visual studio code教學](https://code.visualstudio.com/docs/python/python-tutorial)
+    - 安裝步驟
+      - 先安裝python官方程式
+      - 再安裝visual studio code
+      - 最後要安裝延伸套件[Python extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - Linux 開發環境:
   - [Kali2019](https://drive.google.com/file/d/1m620Z7KAOSUOLdFH92FYLE2NINb-vJsn/view?usp=sharing)  root/toor
   - [ubuntu 18.04 LTS](https://drive.google.com/file/d/1aP-qCFP6jKsGYXtKy9ahwZleQSENEi7C/view?usp=sharing)
