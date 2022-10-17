@@ -3,3 +3,23 @@
 ## [Python Numbers](https://www.w3schools.com/python/python_numbers.asp)
 
 ## [Python Operators](https://www.w3schools.com/python/python_operators.asp)
+
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Logical operators
+- Identity operators
+- Membership operators
+- Bitwise operators
+
+## [Python strings](https://www.w3schools.com/python/python_strings.asp)
+```
+Python Strings
+Slicing Strings
+Modify Strings
+Concatenate Strings
+Format Strings
+Escape Characters
+String Methods
+String Exercises
+```
