@@ -1,5 +1,6 @@
 # 📽龍大大 師輩秀
-
+- [中文版](#Python程式)
+- [英文版](英文版.md)
 
 # Python程式
 - 1.Python開發環境Google Colab
