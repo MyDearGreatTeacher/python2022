@@ -23,3 +23,10 @@ Escape Characters
 String Methods
 String Exercises
 ```
+必考的python string method
+```
+join()	Joins the elements of an iterable to the end of the string
+ljust()	Returns a left justified version of the string
+lower()	Converts a string into lower case
+lstrip()
+```
