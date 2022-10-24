@@ -37,7 +37,7 @@
   - 學習主題 
     - 函數定義與呼叫 [點點看YOUTUBE教學影片](https://youtu.be/w-8MVoO54dY)
     - 函式與回傳值 [點點看YOUTUBE教學影片](https://youtu.be/IouD0SADvlA)
-    - 函式與參數(幾種參數技術)
+    - 函式與參數(幾種參數技術) [點點看YOUTUBE教學影片](https://youtu.be/rjoKpTH2sVM)
       - Default arguments預設參數
       - Positional arguments位置參數
       - Keyword arguments關鍵字參數
