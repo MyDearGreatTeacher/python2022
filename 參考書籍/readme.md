@@ -1,4 +1,7 @@
-# 
+#
+- [Python 教學手冊_洪維恩](https://www.flag.com.tw/bk/t/f2711)
+
+# 進階
 - [F1750 Python 刷題鍛鍊班：老手都刷過的 50 道程式題, 求職面試最給力 (Python Workout: 50 ten-minute exercises)](https://www.tenlong.com.tw/products/9789863126645?list_name=srh)
 
 - [刷題實戰筆記：演算法工程師求職加分的祕笈  付東來 (@labuladong)  博碩文化 2021-08-27](https://www.tenlong.com.tw/products/9789864348565?list_name=srh)
