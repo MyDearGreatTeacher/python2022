@@ -32,7 +32,7 @@
   - Loop control statement(迴圈控制語句)
     - 5.4.break 語句[教學影片@YOUTUBE](https://youtu.be/1kxwZqqICkw)
     - 5.5.continue 語句[教學影片@YOUTUBE](https://www.youtube.com/watch?v=Ugmv_dhzj1w)
-- 6.函數(function)  後續錄影
+- 6.函數(function)  錄影中
   - [教學資料](./5_函數.md)
   - 學習主題 
     - 函數定義與呼叫 [點點看YOUTUBE教學影片](https://youtu.be/w-8MVoO54dY)
