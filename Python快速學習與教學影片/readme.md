@@ -41,9 +41,10 @@
       - Default arguments預設參數
       - Positional arguments位置參數
       - Keyword arguments關鍵字參數
-    python內建函數(builtin functions)
+    - 變數的有效範圍
+    - 各種函數技術
+      - lambda函數
+      - 遞迴函數
+    - python內建函數(builtin functions)
     - 使用python內建函數解ASCII code編碼
-    - lambda函數
-    - 遞迴函數
-  - 
-  - 
+  
