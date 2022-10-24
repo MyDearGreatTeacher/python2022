@@ -2,6 +2,10 @@
 - [F2719 一步到位！Python 程式設計 -- 最強入門教科書, 3/e  陳惠貞 旗標科技](https://www.tenlong.com.tw/products/9789863127192?list_name=srh)
 - [HappyPythonDay](https://github.com/MyFirstSecurity2020/SecurityFirst2022)
 
+## GOOGLE MEET
+
+https://meet.google.com/gwh-xoyz-zmf
+
 # python學習主題
 # python開發環境
 
