@@ -4,7 +4,7 @@
 
 ## GOOGLE MEET
 
-https://meet.google.com/gwh-xoyz-zmf
+https://meet.google.com/waz-kknk-rek
 
 # python學習主題
 # python開發環境
