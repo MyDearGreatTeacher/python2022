@@ -62,7 +62,7 @@ pip install psycopg2-binary #for using postgres
 ```
 
 
-##
+## flask參考書目
 - [Python Flask Web 開發入門與項目實戰](https://www.tenlong.com.tw/products/9787111630883?list_name=srh)
 - [Flask Web 開發從入門到精通, 2/e (Flask Framework Cookbook, 2/e)](https://www.tenlong.com.tw/products/9787302556992?list_name=srh)
 - [Flask Web 開發實戰：入門、進階與原理解析 Flask Web开发实战:入门、进阶与原理解析 李輝](https://www.tenlong.com.tw/products/9787111606598?list_name=srh)
