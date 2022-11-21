@@ -1,3 +1,20 @@
+## 
+- [深入淺出 PostgreSQL 屠要峰](https://www.tenlong.com.tw/products/9787121369018?list_name=srh)
+```
+第2章安裝和啟動PostgreSQL 8
+2.1安裝PostgreSQL 8
+-2.1.1在Windows中安裝PostgreSQL 8
+-2.1. 2在Linux中安裝PostgreSQL 12
+-2.1.3源碼安裝PostgreSQL 14
+2.2初始化數據庫17
+2.3數據庫的基本配置18
+-2.3.1配置數據庫監聽IP和端口18
+-2.3.2配置數據庫錯誤日誌18
+2.4啟動、停止、查看數據庫18
+-2.4.1啟動數據庫18
+-2.4.2停止數據庫19
+-2.4.3查看數據庫狀態19
+```
 ## 安裝PostgreSQL資料庫
 ```
 C:\Program Files\PostgreSQL\15
