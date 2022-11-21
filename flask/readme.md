@@ -55,6 +55,15 @@ pgAdmin4 Installation Directory: C:\Program Files\PostgreSQL\15\pgAdmin 4
 Stack Builder Installation Directory: C:\Program Files\PostgreSQL\15
 Installation Log: C:\Users\user\AppData\Local\Temp\install-postgresql.log
 ```
+
+## 使用內建的資料庫管理pgadmin4工具連到PostgreSQL資料庫
+```
+密碼:
+```
+
+
+## 學習
+- [PostgreSQL 15.1 Documentation  Documentation](https://www.postgresql.org/docs/current/index.html) 
 ## 安裝連線到PostgreSQL資料庫的模組套件
 ```
 pip install flask_sqlalchemy
