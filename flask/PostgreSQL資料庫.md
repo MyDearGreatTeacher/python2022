@@ -15,6 +15,8 @@
 -2.4.2停止數據庫19
 -2.4.3查看數據庫狀態19
 ```
+
+## [windows下postgresql服务的安装和启动](https://blog.csdn.net/m0_37537815/article/details/102715457#:~:text=1%E3%80%81postgresql%E6%9C%8D%E5%8A%A1%E5%90%AF%E5%8A%A8%E6%AD%A5%E9%AA%A4,%5Cdata%202%E3%80%81&text=%E8%AF%A5%E6%95%B0%E6%8D%AE%E5%BA%93%E6%98%AF%E4%B8%93%E4%B8%9A%E7%BB%B4%E6%8A%A4,%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E3%80%82)
 ## 安裝PostgreSQL資料庫
 ```
 C:\Program Files\PostgreSQL\15
