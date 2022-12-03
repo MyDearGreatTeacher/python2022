@@ -9,6 +9,7 @@ NO-SQL資料庫
 - python存取資料庫
 - [Python MySQL]()
 - [Python MongoDB](https://www.w3schools.com/python/python_mysql_getstarted.asp#:~:text=MySQL%20Join-,Python%20MongoDB,-MongoDB%20Get%20Started)
+- Python Redis
 ## 關聯式資料庫(SQL資料庫)
 - 關聯式資料庫系統
   - 甲骨文 Oracle
