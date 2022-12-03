@@ -1,5 +1,5 @@
 # Python_Redis實務演練
-## 
+## 參考資料
 - [Redis 教程](https://www.runoob.com/redis/redis-tutorial.html)
 - [Python redis 使用介绍](https://www.runoob.com/w3cnote/python-redis-intro.html)
 ## 安裝 redis 模組
