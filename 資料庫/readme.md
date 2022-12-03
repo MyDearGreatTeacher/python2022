@@ -10,6 +10,7 @@ NO-SQL資料庫
   - 甲骨文 Oracle
   - 微軟 Microsoft SQL Server
     - [SQL Server 2019/2017 資料庫設計與開發實務 陳會安 碁峰資訊 2020](https://www.tenlong.com.tw/products/9789865024727?list_name=srh) 
+    - [SQL Server On Linux 運維實戰  黃釗吉 熊章立 人民郵電 2019](https://www.tenlong.com.tw/products/9787115502421?list_name=srh)
   - MySQL/MariaDB
     - [MySQL 故障排除與效能調校完全攻略 (上) 李春、羅小波、董紅禹 著 廖信彥 審校 博碩文化 2021](https://www.tenlong.com.tw/products/9789864349586?list_name=srh) 
     - [MySQL 故障排除與效能調校完全攻略 (下) 李春、羅小波、董紅禹 著 廖信彥 審校 博碩文化 2021](https://www.tenlong.com.tw/products/9789864349593?list_name=srh)
@@ -18,6 +19,8 @@ NO-SQL資料庫
     - [MySQL高可用解決方案——從主從復制到InnoDB Cluster架構 徐軼韜 電子工業 2022](https://www.tenlong.com.tw/products/9787121441417?list_name=srh)
     - [PHP8 & MariaDB / MySQL 網站開發 -- 超威範例集  陳惠貞/陳俊榮 碁峰資訊 2021](https://www.tenlong.com.tw/products/9786263240179?list_name=srh)
 - SQL
+  - [SQL in a Nutshell, 4th Edition]()
+    - [SQL 語法手冊 (SQL In A Nutshell, 2/e) 洪慧芳 歐萊禮 2006](https://www.tenlong.com.tw/products/9789867794857?list_name=srh) 
   - [SQL學習手冊 第三版｜資料建立、維護與檢索 (Learning SQL, 3/e) Alan Beaulieu 著 林班侯 譯 歐萊禮 2022 ](https://www.tenlong.com.tw/products/9786263243521?list_name=srh)
   - [優化 SQL｜語法與資料庫的最佳化應用 SQL優化核心思想  羅炳森/黃超/鐘僥 著 H&C 譯 碁峰資訊 2019](https://www.tenlong.com.tw/products/9789865023065?list_name=srh)
   - [最新 SQL 語法範例字典  朝井淳 著、陳亦苓、朱浚賢 譯 旗標科技 2017](https://www.tenlong.com.tw/products/9789863124955?list_name=srh)
