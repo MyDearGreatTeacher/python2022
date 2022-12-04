@@ -28,6 +28,8 @@ NO-SQL資料庫
   - [SQL in a Nutshell, 4th Edition]()
     - [SQL 語法手冊 (SQL In A Nutshell, 2/e) 洪慧芳 歐萊禮 2006](https://www.tenlong.com.tw/products/9789867794857?list_name=srh) 
   - [SQL學習手冊 第三版｜資料建立、維護與檢索 (Learning SQL, 3/e) Alan Beaulieu 著 林班侯 譯 歐萊禮 2022 ](https://www.tenlong.com.tw/products/9786263243521?list_name=srh)
+  - [SQL Tutorial](https://www.hcoe.edu.np/uploads/attachments/r96oytechsacgzi4.pdf)
+  - [SQL cookbook](https://downloads.yugabyte.com/marketing-assets/O-Reilly-SQL-Cookbook-2nd-Edition-Final.pdf)
   - [優化 SQL｜語法與資料庫的最佳化應用 SQL優化核心思想  羅炳森/黃超/鐘僥 著 H&C 譯 碁峰資訊 2019](https://www.tenlong.com.tw/products/9789865023065?list_name=srh)
   - [最新 SQL 語法範例字典  朝井淳 著、陳亦苓、朱浚賢 譯 旗標科技 2017](https://www.tenlong.com.tw/products/9789863124955?list_name=srh)
   - [SQL 語法查詢入門｜挖掘數據真相，征服大數據時代的第一本書 (Practical SQL: A Beginner's Guide to Storytelling with Data) Anthony DeBarros 林班侯 碁峰資訊 2019](https://www.tenlong.com.tw/products/9789865020989?list_name=srh)
