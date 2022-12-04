@@ -8,7 +8,8 @@
   - Learning SciPy for Numerical and Scientific Computing Francisco J. Blanco-Silva  2013
   - Scientific Computing with Python - Second Edition: High-performance scientific computing with NumPy, SciPy, and pandas
   - Mastering SciPy
- 
+# Python 統計分析
+- [Python 統計分析：生命科學應用 (An Introduction to Statistics with Python: With Applications in the Life Sciences) Thomas Haslwanter 著 李銳 譯 博碩文化 2022](https://www.tenlong.com.tw/products/9786263332942?list_name=i-r-zh_tw)
 # 進階
 - [F1750 Python 刷題鍛鍊班：老手都刷過的 50 道程式題, 求職面試最給力 (Python Workout: 50 ten-minute exercises)](https://www.tenlong.com.tw/products/9789863126645?list_name=srh)
 
