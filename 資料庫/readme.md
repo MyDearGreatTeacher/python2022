@@ -7,7 +7,8 @@ NO-SQL資料庫
 ```
 ## Python
 - python存取資料庫
-- [Python MySQL]()
+- [Python MySQL]
+  - [[Python實戰應用]掌握Python連結MySQL資料庫的重要操作]() 
 - [Python MongoDB](https://www.w3schools.com/python/python_mysql_getstarted.asp#:~:text=MySQL%20Join-,Python%20MongoDB,-MongoDB%20Get%20Started)
 - Python Redis
 ## 關聯式資料庫(SQL資料庫)
