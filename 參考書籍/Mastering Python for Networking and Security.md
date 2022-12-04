@@ -217,6 +217,8 @@ for scan in scans:
     for vuln in vulnerabilities:
         print(vuln['plugin_family'],vuln['plugin_name'])
 ```
+## Chapter 10: Identifying Server Vulnerabilities in Web Applications
+## Chapter 11: Security and Vulnerabilities in Python Modules
 # Section 5: Python Forensics
 ## Chapter 12: Python Tools for Forensics Analysis
 - chapter12/registry/get_information_operating_system.py
