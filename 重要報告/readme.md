@@ -4,6 +4,7 @@
 - 期中平時:底下主題任選一個
   - (1)Python網路爬蟲技術
   - (2)Python資料科學分析:NUMPY | Matplotlib/seaborn | Pandas
+    - 或  Pandas 資料分析實務
     - [程式範例](https://github.com/TaiwanHolyHigh/AI4H2022)
     - YOUTUBE錄影
       - [pandas 1](https://youtu.be/_lUy7iJXzrI) 
