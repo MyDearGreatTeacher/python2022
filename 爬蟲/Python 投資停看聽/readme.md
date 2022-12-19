@@ -1,4 +1,4 @@
-# [Python 投資停看聽](https://www.tenlong.com.tw/products/9786263330863?list_name=srh)
+# [Python 投資停看聽](https://www.tenlong.com.tw/products/9786263330863?list_name=srh)  [GITHUB](https://github.com/eyelash94500/python_fin_azure)
 ```
 |CHAPTER| 01 Python 與 VS Code 入門
 1.1 本章學習到什麼？
