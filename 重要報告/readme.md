@@ -7,9 +7,9 @@
     - [程式範例](https://github.com/TaiwanHolyHigh/AI4H2022)
     - YOUTUBE錄影
       - [pandas 1](https://youtu.be/_lUy7iJXzrI) 
-      - [pandas 2]() 
-      - [pandas 3]() 
-      - [pandas 4]()     
+      - [pandas 2](https://youtu.be/9_r9X7Jsis4) 
+      - [pandas 3](https://youtu.be/TE2fKyxwgDo) 
+      - [pandas 4](https://youtu.be/JEbo_P9h8f8)     
 - 期末平時: Python在資訊安全的應用
   - 使用Python解決編碼問題
   - 使用Python解決古典密碼學問題
