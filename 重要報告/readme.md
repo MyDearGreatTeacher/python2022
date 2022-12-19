@@ -1,7 +1,12 @@
 # 期末總成績
 - 期中考試
 - 期末報告:PYTHON物件導向程式技術
-- 期中平時:Python網路爬蟲技術
+- 期中平時:底下主題任選一個
+  - (1)Python網路爬蟲技術
+  - (2)Python資料科學分析:NUMPY | Matplotlib/seaborn | Pandas
+    - [程式範例](https://github.com/TaiwanHolyHigh/AI4H2022)
+    - YOUTUBE錄影
+    
 - 期末平時: Python在資訊安全的應用
   - 使用Python解決編碼問題
   - 使用Python解決古典密碼學問題
