@@ -6,7 +6,10 @@
   - (2)Python資料科學分析:NUMPY | Matplotlib/seaborn | Pandas
     - [程式範例](https://github.com/TaiwanHolyHigh/AI4H2022)
     - YOUTUBE錄影
-    
+      - [pandas 1](https://youtu.be/_lUy7iJXzrI) 
+      - [pandas 2]() 
+      - [pandas 3]() 
+      - [pandas 4]()     
 - 期末平時: Python在資訊安全的應用
   - 使用Python解決編碼問題
   - 使用Python解決古典密碼學問題
