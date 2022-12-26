@@ -1,5 +1,7 @@
+## 參考資料
+- [用React刻自己的投資Dashboard](https://ithelp.ithome.com.tw/users/20129306/ironman/4219)
 
-##
+## 教科書
 ```
 |CHAPTER 01| Python基礎介紹
 技巧1 【觀念】Python安裝介紹
