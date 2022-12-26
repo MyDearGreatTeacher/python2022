@@ -27,7 +27,7 @@ a
 - interval  == >每一分鐘
 
 ## [yfinance 攻略！Python 下載股票價格數據無難度](https://pythonviz.com/finance/yfinance-download-stock-data/)
-
+- 單一股票
 ```python
 import yfinance as yf
 
@@ -39,4 +39,9 @@ tsm.earnings
 tsm.actions	
 tsm.history()
 
+```
+- 多隻股票下載
+```python
+b = yf.download('TSM TSLA',start='2016-01-01',end='2021-01-01')
+b
 ```
